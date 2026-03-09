@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "980798609282",
+    "firebase_url": "https://emsdevelopment.firebaseio.com",
+    "project_id": "emsdevelopment",
+    "storage_bucket": "emsdevelopment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980798609282:android:8a1ad5609eb803e7d0a19b",
+        "android_client_info": {
+          "package_name": "com.ems.medic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980798609282-sbbrggt307r3nmnn9sksu09iitfu8eog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE3K-59QHnRrOP_LnRzGYhsqYtTiO1zzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980798609282-sbbrggt307r3nmnn9sksu09iitfu8eog.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "980798609282-ljb7j1e0ceqdekkupb3b035rkf7vu40i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ems.medic"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980798609282:android:01d6062ef64927d5d0a19b",
+        "android_client_info": {
+          "package_name": "com.ems_medic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980798609282-sbbrggt307r3nmnn9sksu09iitfu8eog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE3K-59QHnRrOP_LnRzGYhsqYtTiO1zzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980798609282-sbbrggt307r3nmnn9sksu09iitfu8eog.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "980798609282-ljb7j1e0ceqdekkupb3b035rkf7vu40i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ems.medic"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
