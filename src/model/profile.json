@@ -1,0 +1,58 @@
+{
+  "profile": [
+    [
+      {
+        "name": "name",
+        "label": "Full Name",
+        "placeholder": "Enter your name",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Name is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "email",
+        "label": "Email",
+        "placeholder": "Enter your email ID",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Email is required"
+          },
+          "pattern": {
+            "value": /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+            "message": "Invalid Email Format"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "primaryPhone",
+        "label": "Primary Phone No",
+        "placeholder": "Enter your primary phone no",
+        "type": "phone",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Phone no is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "secondaryPhone",
+        "label": "Secondary Phone No",
+        "placeholder": "Enter your secondary phone no",
+        "type": "phone"
+      }
+    ],
+  ]
+}

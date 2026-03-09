@@ -1,0 +1,234 @@
+{
+  "data": [
+    {
+      "id": "101",
+      "name": "CPR",
+      "type": "form",
+      
+      "data": []
+    },
+    {
+      "id": "P2",
+      "name": "Prior Tx At Scene",
+      "type": "form",
+      
+      "data": [
+        {
+          "id": "P2-G1",
+          "name": "",
+          "type": "group",
+          
+          "data": [
+            {
+              "id": "P2-G1-Q1",
+              "name": "",
+              "type": "question",
+              
+              "data": [
+                {
+                  "id": "P2-G1-Q1-R1",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P2-G1-Q1-R1-O1",
+                      "name": "None",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P2-G1-Q1-R1-O2",
+                      "name": "By Patient",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P2-G1-Q1-R1-O3",
+                      "name": "By Bystander",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-G1-Q1-R2",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P2-G1-Q1-R2-O1",
+                      "name": "Tx",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-G1-Q1-R3",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P2-G1-Q1-R3-O1",
+                      "name": "by FDNY (Unit#)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-G1-Q1-R4",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P2-G1-Q1-R4-O1",
+                      "name": "by FDNY (Tx)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-G1-Q1-R5",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P2-G1-Q1-R5-O1",
+                      "name": "by EMS (Unit#)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-G1-Q1-R6",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P2-G1-Q1-R6-O1",
+                      "name": "by EMS (Tx)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-G1-Q1-R7",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P2-G1-Q1-R7-O1",
+                      "name": "by NYPD (Shield#)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-G1-Q1-R8",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P2-G1-Q1-R8-O1",
+                      "name": "by NYPD (Tx)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-G1-Q1-R9",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P2-G1-Q1-R9-O1",
+                      "name": "by Doctor (Name or #)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-G1-Q1-R10",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P2-G1-Q1-R10-O1",
+                      "name": "by Doctor (Tx)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-G1-Q1-R11",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P2-G1-Q1-R11-O1",
+                      "name": "Other",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "name": "RSI",
+      "type": "form",
+      
+      "data": []
+    }
+  ]
+}

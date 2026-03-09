@@ -1,0 +1,306 @@
+{
+  "Demographics": [
+    [
+      {
+        "name": "name",
+        "label": "Full Name",
+        "placeholder": "Enter your name",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Name is required"
+          }
+        },
+        "inputProps": {
+          "autoCorrect": false,
+          "autoCompleteType": "name",
+          "textContentType": "name",
+          "keyboardType": "name-phone-pad"
+        }
+      }
+    ],
+    [
+      {
+        "name": "email",
+        "label": "Email",
+        "placeholder": "Enter your email ID",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Email is required"
+          },
+          "pattern": {
+            "value": /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+            "message": "Invalid Email Format"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "primaryPhone",
+        "label": "Primary Phone No",
+        "placeholder": "Enter your primary phone no",
+        "type": "phone",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Phone no is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "secondaryPhone",
+        "label": "Secondary Phone No",
+        "placeholder": "Enter your secondary phone no",
+        "type": "phone"
+      }
+    ],
+    [
+      {
+        "label": "permanent address",
+        "type": "heading"
+      }
+    ],
+    [
+      {
+        "name": "perAddress",
+        "label": "Address",
+        "placeholder": "Flot No / Street / Area",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Address is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "perCity",
+        "label": "City",
+        "placeholder": "Enter Your city",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "City is required"
+          }
+        }
+      },
+      {
+        "name": "perState",
+        "label": "State",
+        "placeholder": "Enter Your state",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "State is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "perCountry",
+        "label": "Country",
+        "placeholder": "Enter Your country",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Country is required"
+          }
+        }
+      },
+      {
+        "name": "perPostcode",
+        "label": "Postcode",
+        "placeholder": "Enter Your postcode",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Postcode is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "confirmAddress",
+        "label": "Current address is same as the permanent address.",
+        "type": "switch"
+      }
+    ],
+    [
+      {
+        "label": "current address",
+        "type": "heading"
+      }
+    ],
+    [
+      {
+        "name": "curAddress",
+        "label": "Address",
+        "placeholder": "Flot No / Street / Area",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Address is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "curCity",
+        "label": "City",
+        "placeholder": "Enter Your city",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "City is required"
+          }
+        }
+      },
+      {
+        "name": "curState",
+        "label": "State",
+        "placeholder": "Enter Your state",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "State is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "curCountry",
+        "label": "Country",
+        "placeholder": "Enter Your country",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Country is required"
+          }
+        }
+      },
+      {
+        "name": "curPostcode",
+        "label": "Postcode",
+        "placeholder": "Enter Your postcode",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Country is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "gender",
+        "label": "Gender",
+        "placeholder": "Select Gender",
+        "type": "picker",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Select Gender"
+          }
+        },
+        "pickerItems": ["Male", "Female", "Other"]
+      },
+      {
+        "name": "weight",
+        "label": "Weight",
+        "placeholder": "Enter your weight",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Weight is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "age",
+        "label": "Date of birth",
+        "placeholder": "Select your DOB",
+        "type": "date",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Select your DOB"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "location",
+        "label": "Location",
+        "placeholder": "What3work location",
+        "type": "input",
+        "editable": false,
+        "validation": {}
+      }
+    ],
+    [
+      {
+        "name": "select staff",
+        "label": "Staff",
+        "tabvalue": ["Yes", "No"],
+        "defaultSelectedTab":"No",
+        "type": "segmentedTab",
+        
+      }
+    ],
+    [
+      {
+        "name": "select staff",
+        "label": "Representation",
+        "tabvalue": ["Yes", "No"],
+        "defaultSelectedTab":"No",
+        "type": "segmentedTab",
+        
+      }
+    ],
+    [
+      {
+        "name": "Patient reported use of unknown substance",
+        "label": "Patient reported use of unknown substance",
+        "tabvalue": ["Yes", "No"],
+        "defaultSelectedTab":"No",
+        "type": "segmentedTab",
+       
+      }
+    ],
+    [
+      {
+        "name": "Patient reported use of ETOH",
+        "label": "Patient reported use of ETOH",
+        "tabvalue": ["Yes", "No"],
+        "defaultSelectedTab":"No",
+        "type": "segmentedTab",
+        
+      }
+    ],
+  ]
+}

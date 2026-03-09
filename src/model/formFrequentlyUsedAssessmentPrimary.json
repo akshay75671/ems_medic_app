@@ -1,0 +1,568 @@
+{
+  "data": [
+    {
+      "id": "P7",
+      "name": "Covid-19",
+      "type": "form",
+      
+      "data": [
+        {
+          "id": "P7-G1",
+          "name": "",
+          "type": "group",
+          
+          "data": [
+            {
+              "id": "P7-G1-Q1",
+              "name": "Covid-19",
+              "type": "question",
+              
+              "data": [
+                {
+                  "id": "P7-G1-Q1-R1",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P7-G1-Q1-R1-O1",
+                      "name": "Suspected",
+                      "type": "s-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P7-G1-Q1-R1-O2",
+                      "name": "Confirmed",
+                      "type": "s-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P7-G1-Q2",
+              "name": "Signs Symptoms",
+              "type": "question",
+              
+              "data": [
+                {
+                  "id": "P7-G1-Q2-R1",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P7-G1-Q2-R1-O1",
+                      "name": "Shortness of breath",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P7-G1-Q2-R1-O2",
+                      "name": "Cough",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P7-G1-Q2-R1-O3",
+                      "name": "Sore throat",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P7-G1-Q2-R1-O4",
+                      "name": "Fever",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P7-G1-Q2-R2",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P7-G1-Q2-R2-O1",
+                      "name": "Temperature",
+                      "type": "tf-number",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P7-G1-Q2-R3",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P7-G1-Q2-R3-O1",
+                      "name": "Other",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P7-G1-Q3",
+              "name": "Surgical Mask",
+              "type": "question",
+              
+              "data": [
+                {
+                  "id": "P7-G1-Q3-R1",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P7-G1-Q3-R1-O1",
+                      "name": "Surgical Mask Supplied",
+                      "type": "s-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P7-G1-Q3-R1-O2",
+                      "name": "Surgical Mask Insitu",
+                      "type": "s-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P7-G1-Q4",
+              "name": "PPE Crew",
+              "type": "question",
+              
+              "data": [
+                {
+                  "id": "P7-G1-Q4-R1",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P7-G1-Q4-R1-O1",
+                      "name": "N95 Mask",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P7-G1-Q4-R1-O2",
+                      "name": "Surgical Mask",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P7-G1-Q4-R1-O3",
+                      "name": "Eye protection",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P7-G1-Q4-R1-O4",
+                      "name": "Gown",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P7-G1-Q4-R1-O5",
+                      "name": "Gloves",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P8",
+      "name": "Prior Tx At Scene",
+      "type": "form",
+      
+      "data": [
+        {
+          "id": "P8-G1",
+          "name": "",
+          "type": "group",
+          
+          "data": [
+            {
+              "id": "P8-G1-Q1",
+              "name": "",
+              "type": "question",
+              
+              "data": [
+                {
+                  "id": "P8-G1-Q1-R1",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R1-O1",
+                      "name": "None",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P8-G1-Q1-R1-O2",
+                      "name": "By Patient",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P8-G1-Q1-R1-O3",
+                      "name": "By Bystander",
+                      "type": "m-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R2",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R2-O1",
+                      "name": "Tx",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R3",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R3-O1",
+                      "name": "by FDNY (Unit#)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R4",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R4-O1",
+                      "name": "by FDNY (Tx)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R5",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R5-O1",
+                      "name": "by EMS (Unit#)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R6",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R6-O1",
+                      "name": "by EMS (Tx)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R7",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R7-O1",
+                      "name": "by NYPD (Shield#)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R8",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R8-O1",
+                      "name": "by NYPD (Tx)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R9",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R9-O1",
+                      "name": "by Doctor (Name or #)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R10",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R10-O1",
+                      "name": "by Doctor (Tx)",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R11",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R11-O1",
+                      "name": "Other",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Skin",
+      "type": "form",
+      
+      "data": [
+        {
+          "id": "P5-G1",
+          "name": "",
+          "type": "group",
+          
+          "data": [
+            {
+              "id": "P5-G1-Q1",
+              "name": "Cap Refill",
+              "type": "question",
+              
+              "data": [
+                {
+                  "id": "P5-G1-Q1-R1",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P5-G1-Q1-R1-O1",
+                      "name": "(-) 2sec",
+                      "type": "s-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P5-G1-Q1-R1-O2",
+                      "name": "(+) 2sec",
+                      "type": "s-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P5-G1-Q1-R1-O3",
+                      "name": "(=) 2sec",
+                      "type": "s-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P5-G1-Q2",
+              "name": "Skin Assessment",
+              "type": "question",
+              
+              "data": [
+                {
+                  "id": "P5-G1-Q2-R1",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P5-G1-Q2-R1-O1",
+                      "name": "Rash (Yes)",
+                      "type": "s-select",
+                      
+                      "sections_to_show": [
+                        "P5-G1-Q2-R2"
+                      ],
+                      "sections_to_hide": null
+                    },
+                    {
+                      "id": "P5-G1-Q2-R1-O2",
+                      "name": "Rash (No)",
+                      "type": "s-select",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": [
+                        "P5-G1-Q2-R2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P5-G1-Q2-R2",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P5-G1-Q2-R1-O1",
+                      "name": "Rash Location",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P5-G1-Q3",
+              "name": "",
+              "type": "question",
+              
+              "data": [
+                {
+                  "id": "P5-G1-Q3-R1",
+                  "name": "",
+                  "type": "query",
+                  
+                  "data": [
+                    {
+                      "id": "P5-G1-Q3-R1-O1",
+                      "name": "Other",
+                      "type": "tf-text",
+                      
+                      "sections_to_show": null,
+                      "sections_to_hide": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

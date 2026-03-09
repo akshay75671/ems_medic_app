@@ -1,0 +1,51 @@
+{
+  "epcrData": [
+    {
+
+      "pic": "https://i.pinimg.com/564x/af/39/12/af391266c0f5e029a76bd5ba97a00460.jpg",
+      "name": "Rebeca",
+      "assignUserPic": "https://artbreeder.b-cdn.net/imgs/f4dc3b48feeb42b1b77a.jpeg",
+      "status": "available",
+      "distance": "1 km"
+    },
+    {
+      "pic": "https://artbreeder.b-cdn.net/static/image/models/portraits_sg2.jpg?width=256",
+      "name": "Abelard", "assignUserPic": "https://secure.gravatar.com/avatar/d36782471c6a62a7aee1755536332d2f?s=256&d=mm&r=g",
+      "status": "notAvailable",
+      "distance": "5.5 km"
+    },
+    {
+      "pic": "https://artbreeder.b-cdn.net/imgs/f4dc3b48feeb42b1b77a.jpeg",
+      "name": "Ella",
+      "status": "engaged",
+      "distance": "7 km"
+    },
+    {
+      "pic": "https://mcmscache.epapr.in/post_images/website_350/post_15678739/thumb.jpg",
+      "name": "Wyatt",
+      "status": "available",
+      "distance": "5.4 km"
+    },
+    {
+      
+      "pic": "https://secure.gravatar.com/avatar/d36782471c6a62a7aee1755536332d2f?s=256&d=mm&r=g",
+      "name": "Naveen",
+      "status": "available",
+      "distance": "3.2 km"
+    },
+    {
+      
+      "pic": "https://artbreeder.b-cdn.net/static/image/models/portraits_sg2.jpg?width=256",
+      "name": "Abelard",
+      "status": "engaged",
+      "distance": "7.8 km"
+    },
+    {
+      
+      "pic": "https://i.pinimg.com/564x/af/39/12/af391266c0f5e029a76bd5ba97a00460.jpg",
+      "name": "Rebeca",
+      "status": "notAvailable",
+      "distance": "2.5 km"
+    }
+  ]
+}

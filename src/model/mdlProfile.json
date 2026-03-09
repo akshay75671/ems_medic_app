@@ -1,0 +1,587 @@
+{
+  "Demographics": [
+    [
+      {
+        "name": "name",
+        "label": "Full Name",
+        "placeholder": "Enter your name",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Name is required"
+          }
+        },
+      }
+    ],
+    [
+      {
+        "name": "email",
+        "label": "Email",
+        "placeholder": "Enter your email ID",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Email is required"
+          },
+          "pattern": {
+            "value": /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+            "message": "Invalid Email Format"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "primaryPhone",
+        "label": "Primary Phone No",
+        "placeholder": "Enter your primary phone no",
+        "type": "phone",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Phone no is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "secondaryPhone",
+        "label": "Secondary Phone No",
+        "placeholder": "Enter your secondary phone no",
+        "type": "phone"
+      }
+    ],
+    [
+      {
+        "label": "permanent address",
+        "type": "heading"
+      }
+    ],
+    [
+      {
+        "name": "perAddress",
+        "label": "Address",
+        "placeholder": "Flot No / Street / Area",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Address is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "perCity",
+        "label": "City",
+        "placeholder": "Enter Your city",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "City is required"
+          }
+        }
+      },
+      {
+        "name": "perState",
+        "label": "State",
+        "placeholder": "Enter Your state",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "State is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "perCountry",
+        "label": "Country",
+        "placeholder": "Enter Your country",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Country is required"
+          }
+        }
+      },
+      {
+        "name": "perPostcode",
+        "label": "Postcode",
+        "placeholder": "Enter Your postcode",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Postcode is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "confirmAddress",
+        "label": "Current address is same as the permanent address.",
+        "type": "switch"
+      }
+    ],
+    [
+      {
+        "label": "current address",
+        "type": "heading"
+      }
+    ],
+    [
+      {
+        "name": "curAddress",
+        "label": "Address",
+        "placeholder": "Flot No / Street / Area",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Address is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "curCity",
+        "label": "City",
+        "placeholder": "Enter Your city",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "City is required"
+          }
+        }
+      },
+      {
+        "name": "curState",
+        "label": "State",
+        "placeholder": "Enter Your state",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "State is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "curCountry",
+        "label": "Country",
+        "placeholder": "Enter Your country",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Country is required"
+          }
+        }
+      },
+      {
+        "name": "curPostcode",
+        "label": "Postcode",
+        "placeholder": "Enter Your postcode",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Country is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "gender",
+        "label": "Gender",
+        "placeholder": "Select Gender",
+        "type": "picker",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Select Gender"
+          }
+        },
+        "pickerItems": ["Male", "Female", "Other"]
+      },
+      {
+        "name": "weight",
+        "label": "Weight",
+        "placeholder": "Enter your weight",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Weight is required"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "dob",
+        "label": "Date of birth",
+        "placeholder": "Select your DOB",
+        "type": "date",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Select your DOB"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "location",
+        "label": "Location",
+        "placeholder": "What3work location",
+        "type": "input",
+        "editable": false,
+        "validation": {}
+      }
+    ],
+    [
+      {
+        "name": "select staff",
+        "label": "Staff",
+        "tabvalue": ["Yes", "No"],
+        "defaultSelectedTab":"No",
+        "type": "segmentedTab",
+        
+      }
+    ],
+    [
+      {
+        "name": "select staff",
+        "label": "Representation",
+        "tabvalue": ["Yes", "No"],
+        "defaultSelectedTab":"No",
+        "type": "segmentedTab",
+        
+      }
+    ],
+    [
+      {
+        "name": "Patient reported use of unknown substance",
+        "label": "Patient reported use of unknown substance",
+        "tabvalue": ["Yes", "No"],
+        "defaultSelectedTab":"No",
+        "type": "segmentedTab",
+       
+      }
+    ],
+    [
+      {
+        "name": "Patient reported use of ETOH",
+        "label": "Patient reported use of ETOH",
+        "tabvalue": ["Yes", "No"],
+        "defaultSelectedTab":"No",
+        "type": "segmentedTab",
+        
+      }
+    ],
+  ],
+  "EventDisposition":[
+    [
+      {
+        "name": "dispositionType",
+        "label": "Dispostion Type",
+        "value": false,
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Dispostion type is required"
+          }
+        },
+        "radioValues": [{
+          "key": "back to event",
+          "text": "Back to Event",
+        },
+        {
+          "key": "home with family or friend",
+          "text": "Home with Family or Friend",
+        },
+        {
+          "key": "in care of another agency",
+          "text": "In care of another agency",
+        },
+        {
+          "key": "patient refused treatment / transport",
+          "text": "Patient refused Treatment / Transport",
+        },
+        {
+          "key": "patient decamped",
+          "text": "Patient Decamped"
+        },
+        {
+          "key": "to medical center / hospital with family or friends",
+          "text": "To Medical Center / Hospital with Family or Friends"
+        },
+        {
+          "key": "non-clinical",
+          "text": "Non-Clinicalal"
+        },
+        {
+          "key": "transport by coroner",
+          "text": "Transport by Coroner"
+        },
+        {
+          "key": "safeguard",
+          "text": "Safeguard"
+        }
+      ],
+        "type": "radio",
+      }
+    ],
+  ],
+  "AmbulanceDisposition":[
+    [
+      {
+        "name": "ambulanceRequestedBy",
+        "label": "Ambulance requested by",
+        "value": false,
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Ambulance requested by is required"
+          }
+        },
+        "radioValues": [{
+          "key": "ems",
+          "text": "EMS",
+        },
+        {
+          "key": "police",
+          "text": "Police",
+        },
+        {
+          "key": "otherAgency",
+          "text": "Other Agency",
+        },
+        {
+          "key": "public",
+          "text": "Public",
+        },
+        {
+          "key": "ambulance",
+          "text": "Ambulance"
+        }
+      ],
+        "type": "radio",
+      }
+    ],
+    [
+      {
+        "name": "ambulanceTransportedBy",
+        "label": "Transport by",
+        "value": false,
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Transport by is required"
+          }
+        },
+        "radioValues": [{
+          "key": "road",
+          "text": "Road",
+        },
+        {
+          "key": "air",
+          "text": "Air",
+        },
+        {
+          "key": "other",
+          "text": "Other",
+        },
+      ],
+        "type": "radio",
+      }
+    ]
+  ],
+  "AmbulanceForm":[
+    [
+      {
+        "name": "bookingId",
+        "label": "Booking ID",
+        "placeholder": "Enter Booking ID",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Booking ID is required"
+          }
+        },
+      }
+    ],
+    [
+      {
+        "name": "name",
+        "label": "Patient Name",
+        "placeholder": "Enter patient name",
+        "type": "input",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Patient Name is required"
+          }
+        },
+      }
+    ],
+    [
+      {
+        "name": "requestedBy",
+        "label": "Requested By",
+        "placeholder": "Enter requested by",
+        "type": "input",
+      }
+    ],
+    [
+      {
+        "name": "age",
+        "label": "Date of birth",
+        "placeholder": "Select your DOB",
+        "type": "date",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Select your DOB"
+          }
+        }
+      }
+    ],
+    [
+      {
+        "name": "gender",
+        "label": "Gender",
+        "placeholder": "Select Gender",
+        "type": "picker",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Select Gender"
+          }
+        },
+        "pickerItems": ["Male", "Female", "Other"]
+      },
+    ],
+    [
+      {
+        "name": "primaryChiefComplaint",
+        "label": "Primary Chief Complaint",
+        "placeholder": "Enter primary chief complaint",
+        "type": "input",
+      }
+    ],
+    [
+      {
+        "name": "secondaryChiefComplaint",
+        "label": "Secondary Chief Complaint",
+        "placeholder": "Enter secondary chief complaint",
+        "type": "input",
+      }
+    ],
+    [
+      {
+        "name": "notes",
+        "label": "Notes",
+        "placeholder": "Enter notes",
+        "multiline":true,
+        "numberOfLines":5,
+        "type": "input",
+      }
+    ],
+    [
+      {
+        "name": "artus",
+        "label": "Artus",
+        "tabvalue": ["Yes", "No"],
+        "defaultSelectedTab":"No",
+        "type": "segmentedTab",
+      }
+    ],
+    [
+      {
+        "name": "etoh",
+        "label": "Etoh",
+        "tabvalue": ["Yes", "No"],
+        "defaultSelectedTab":"No",
+        "type": "segmentedTab",
+      }
+    ],
+  ],
+  "RMA":[
+    [
+      {
+        "name": "rmaStatement",
+        "label": "RMA Statement",
+        "placeholder": "Enter RMA statement",
+        "multiline":true,
+        "numberOfLines":5,
+        "type": "input",
+      }
+    ],
+    [
+      {
+        "name": "treatmentRefused",
+        "label": "Treatment Refused",
+        "placeholder": "Select treatment refused",
+        "type": "picker",
+        "validation": {
+          "required": {
+            "value": true,
+            "message": "Select treatment refused"
+          }
+        },
+        "pickerItems": ["Oxygen > O2 via Nasal Cannual, O2 Via Non-Breath", "Intervention > Bleeding Control, Immobilization Limb", "Medication > Albuterol, Epi Auto Injector"]
+      }
+    ],
+    [
+      {
+        "name": "patientName",
+        "label": "Patient Name",
+        "placeholder": "Enter patient name",
+        "type": "input",
+      }
+    ],
+    [
+      {
+        "name": "patientSignature",
+        "label": "Patient Signature",
+        "placeholder": "Enter patient signature",
+        "type": "input",
+      }
+    ],
+    [
+      {
+        "name": "witnessName",
+        "label": "Witness Name",
+        "placeholder": "Enter witness name",
+        "type": "input",
+      }
+    ],
+    [
+      {
+        "name": "witnessSignature",
+        "label": "Witness Signature",
+        "placeholder": "Enter witness signature",
+        "type": "input",
+      }
+    ],
+  ]
+}

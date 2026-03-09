@@ -1,0 +1,44 @@
+{
+  "medicineList": [
+    {
+      "key": "bandAid",
+      "lable": "Band Aid",
+      "value": 0
+    },
+    {
+      "key": "safetyPin",
+      "lable": "Safety Pin",
+      "value": 0
+    },
+    {
+      "key": "syring",
+      "lable": "Syring",
+      "value": 0
+    },
+    {
+      "key": "nebulizer",
+      "lable": "Nebulizer",
+      "value": 0
+    },
+    {
+      "key": "bedpan",
+      "lable": "Bedpan",
+      "value": 0
+    },
+    {
+      "key": "enemaBagBucket",
+      "lable": "Enama bag and enema bucket",
+      "value": 0
+    },
+    {
+      "key": "defibrillator",
+      "lable": "Defibrillator",
+      "value": 0
+    },
+    {
+      "key": "bloodInfusionSet",
+      "lable": "Blood Infusion Set",
+      "value": 0
+    }
+  ]
+}

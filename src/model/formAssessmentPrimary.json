@@ -1,0 +1,5329 @@
+{
+  "name": "Assesment",
+  "type": "menu_level_1",
+  "data": [
+    {
+      "id": "P1",
+      "name": "Patient Category",
+      "type": "form",
+      "data": [
+        {
+          "id": "P1-G1",
+          "name": "",
+          "type": "group",
+          "data": [
+            {
+              "id": "P1-G1-Q1",
+              "name": "",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P1-G1-Q1-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P1-G1-Q1-R1-O1",
+                      "name": "CAT1: Immediate resuscitation",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P1-G1-Q1-R1-O2",
+                      "name": "CAT2: Very urgent",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P1-G1-Q1-R1-O3",
+                      "name": "CAT3: Urgent",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P1-G1-Q1-R1-O4",
+                      "name": "CAT4: Standard",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P1-G1-Q1-R1-O5",
+                      "name": "CAT5: Non urgent",
+                      "type": "s-select"
+                    }
+                  ]
+                },
+                {
+                  "id": "P1-G1-Q1-R2",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P1-G1-Q2-R2-O1",
+                      "name": "Others",
+                      "type": "tf-text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Primary",
+      "type": "menu_level_2",
+      "data": [
+        {
+          "id": "P2-S1",
+          "name": "Chief Complaint",
+          "type": "form",
+          "data": [
+            {
+              "id": "P2-S1-G1",
+              "name": "",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P2-S1-G1-Q1",
+                  "name": "Primary Chief Compliant",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S1-G1-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O1",
+                          "name": "Abdominal Pain",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O1"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O2",
+                          "name": "Abdominal Problems",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O2"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O3",
+                          "name": "Allergy",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O3"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O4",
+                          "name": "Altered Level Of Consciousness",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O4"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O5",
+                          "name": "Anaphylaxsis",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O5"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O6",
+                          "name": "Anxiety",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O6"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O7",
+                          "name": "ARTUS",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O7"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O8",
+                          "name": "Assault",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O8"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O9",
+                          "name": "Asthma",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O9"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O10",
+                          "name": "Back Pain",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O10"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O11",
+                          "name": "Bites/Stings",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-011"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O12",
+                          "name": "Body Aches",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O12"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O13",
+                          "name": "Burns",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O13"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O14",
+                          "name": "Cardiac Arrest",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O14"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O15",
+                          "name": "Cardio-Vascular Complaint",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O15"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O16",
+                          "name": "Chest Pain",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O16"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O17",
+                          "name": "Dental",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O17"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O18",
+                          "name": "Diabetic Problems",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O18"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O19",
+                          "name": "Diarrhoea/Gastro",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O19"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O20",
+                          "name": "Dizzy",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O20"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O21",
+                          "name": "Ear/Nose/Throat Problems",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O20"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O22",
+                          "name": "Epistaxis (Nose Bleed)",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O22"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O23",
+                          "name": "ETOH",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O23"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O24",
+                          "name": "Eye Problem",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O24"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O25",
+                          "name": "Fainting/Syncope",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O25"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O26",
+                          "name": "Fall",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O26"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O27",
+                          "name": "Fever (Drug Related)",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O27"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O28",
+                          "name": "Fever (Non-Drug Related)",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O28"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O29",
+                          "name": "Flank Pain",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O29"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O30",
+                          "name": "Fluid/Nutrition Alteration",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O30"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O31",
+                          "name": "Foreign Body Procedure",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O31"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O32",
+                          "name": "Genito-Urinary Problem",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O32"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O33",
+                          "name": "Gun-Shot Wound",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O33"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O34",
+                          "name": "Gynaecological Problem",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O34"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O35",
+                          "name": "Haemorrhage",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O35"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O36",
+                          "name": "Headache",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O36"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O37",
+                          "name": "Heartburn",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O37"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O38",
+                          "name": "Industrial/Machinery Accidents",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O38"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O39",
+                          "name": "Infection",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O39"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O40",
+                          "name": "Ingestion (Accidental)",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O40"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O41",
+                          "name": "Laceration",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O41"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O42",
+                          "name": "Muscular Pain",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O42"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O43",
+                          "name": "Nausea/Vomitting",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O43"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O44",
+                          "name": "Neck Pain",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O44"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O45",
+                          "name": "Needlestick",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O45"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O46",
+                          "name": "Neurological Complaint",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O46"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O47",
+                          "name": "Obstetrical Problem",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O47"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O48",
+                          "name": "Orthopaedic Injury",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O48"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O49",
+                          "name": "Other",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O49"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O50",
+                          "name": "Overdose (Intentional)",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O50"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O51",
+                          "name": "Panic Attack",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O51"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O52",
+                          "name": "Peripheral Vascular/Leg Pain",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O52"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O53",
+                          "name": "Psychiatric/Social Problems",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O53"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O54",
+                          "name": "Reaction/Sting",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O54"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O55",
+                          "name": "Respiratory Problems",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O55"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O56",
+                          "name": "Seizures",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O56"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O57",
+                          "name": "Skin Complaint/Trauma",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O57"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O58",
+                          "name": "Sprain/Strain",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O58"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O59",
+                          "name": "Stabbing",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O59"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O60",
+                          "name": "Stroke/Cva",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O60"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O61",
+                          "name": "Sunburn",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O61"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O62",
+                          "name": "Temperature Related Convulsions",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O62"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O63",
+                          "name": "Toothache",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O63"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O64",
+                          "name": "Traffic Injury",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O64"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O65",
+                          "name": "Trauma",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O65"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O66",
+                          "name": "Traumatic Injuries",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O66"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O67",
+                          "name": "Unconsciousness",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O67"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O68",
+                          "name": "Unknown Problem",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O68"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O69",
+                          "name": "Vaginal Bleeding",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O69"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O70",
+                          "name": "Weakness",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O70"
+                          ]
+                        },
+                        {
+                          "id": "P2-S1-G1-Q1-R1-O71",
+                          "name": "Welfare Check",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S1-G2-Q1-R1-O71"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S1-G1-Q2",
+                  "name": "Onset",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S1-G1-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S1-G1-Q2-R1-O1",
+                          "name": "Onset",
+                          "type": "tf-text"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S1-G1-Q2-R2",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S1-G1-Q2-R2-O1",
+                          "name": "Minutes",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S1-G1-Q2-R2-O2",
+                          "name": "Hours",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S1-G1-Q2-R2-O3",
+                          "name": "Days",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S1-G1-Q2-R2-O4",
+                          "name": "Weeks",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S1-G1-Q2-R2-O5",
+                          "name": "Months",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S1-G1-Q2-R2-O6",
+                          "name": "Unknown",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S1-G1-Q3",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S1-G1-Q3-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S1-G1-Q3-R1-O1",
+                          "name": "Others",
+                          "type": "tf-text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P2-S1-G2",
+              "name": "",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P2-S1-G2-Q1",
+                  "name": "Secondary Chief Compliant",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S1-G2-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O1",
+                          "name": "Abdominal Pain",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O2",
+                          "name": "Abdominal Problems",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O3",
+                          "name": "Allergy",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O4",
+                          "name": "Altered Level Of Consciousness",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O5",
+                          "name": "Anaphylaxsis",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O6",
+                          "name": "Anxiety",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O7",
+                          "name": "ARTUS",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O8",
+                          "name": "Assault",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O9",
+                          "name": "Asthma",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O10",
+                          "name": "Back Pain",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O11",
+                          "name": "Bites/Stings",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O12",
+                          "name": "Body Aches",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O13",
+                          "name": "Burns",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O14",
+                          "name": "Cardiac Arrest",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O15",
+                          "name": "Cardio-Vascular Complaint",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O16",
+                          "name": "Chest Pain",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O17",
+                          "name": "Dental",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O18",
+                          "name": "Diabetic Problems",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O19",
+                          "name": "Diarrhoea/Gastro",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O20",
+                          "name": "Dizzy",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O21",
+                          "name": "Ear/Nose/Throat Problems",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O22",
+                          "name": "Epistaxis (Nose Bleed)",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O23",
+                          "name": "ETOH",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O24",
+                          "name": "Eye Problem",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O25",
+                          "name": "Fainting/Syncope",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O26",
+                          "name": "Fall",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O27",
+                          "name": "Fever (Drug Related)",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O28",
+                          "name": "Fever (Non-Drug Related)",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O29",
+                          "name": "Flank Pain",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O30",
+                          "name": "Fluid/Nutrition Alteration",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O31",
+                          "name": "Foreign Body Procedure",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O32",
+                          "name": "Genito-Urinary Problem",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O33",
+                          "name": "Gun-Shot Wound",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O34",
+                          "name": "Gynaecological Problem",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O35",
+                          "name": "Haemorrhage",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O36",
+                          "name": "Headache",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O37",
+                          "name": "Heartburn",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O38",
+                          "name": "Industrial/Machinery Accidents",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O39",
+                          "name": "Infection",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O40",
+                          "name": "Ingestion (Accidental)",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O41",
+                          "name": "Laceration",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O42",
+                          "name": "Muscular Pain",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O43",
+                          "name": "Nausea/Vomitting",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O44",
+                          "name": "Neck Pain",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O45",
+                          "name": "Needlestick",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O46",
+                          "name": "Neurological Complaint",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O47",
+                          "name": "Obstetrical Problem",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O48",
+                          "name": "Orthopaedic Injury",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O49",
+                          "name": "Other",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O50",
+                          "name": "Overdose (Intentional)",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O51",
+                          "name": "Panic Attack",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O52",
+                          "name": "Peripheral Vascular/Leg Pain",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O53",
+                          "name": "Psychiatric/Social Problems",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O54",
+                          "name": "Reaction/Sting",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O55",
+                          "name": "Respiratory Problems",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O56",
+                          "name": "Seizures",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O57",
+                          "name": "Skin Complaint/Trauma",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O58",
+                          "name": "Sprain/Strain",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O59",
+                          "name": "Stabbing",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O60",
+                          "name": "Stroke/Cva",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O61",
+                          "name": "Sunburn",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O62",
+                          "name": "Temperature Related Convulsions",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O63",
+                          "name": "Toothache",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O64",
+                          "name": "Traffic Injury",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O65",
+                          "name": "Trauma",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O66",
+                          "name": "Traumatic Injuries",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O67",
+                          "name": "Unconsciousness",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O68",
+                          "name": "Unknown Problem",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O69",
+                          "name": "Vaginal Bleeding",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O70",
+                          "name": "Weakness",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q1-R1-O71",
+                          "name": "Welfare Check",
+                          "type": "m-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S1-G2-Q2",
+                  "name": "Onset",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S1-G2-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S1-G2-Q2-R1-O1",
+                          "name": "Onset",
+                          "type": "tf-text"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S1-G2-Q2-R2",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S1-G2-Q2-R2-O1",
+                          "name": "Minutes",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q2-R2-O2",
+                          "name": "Hours",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q2-R2-O3",
+                          "name": "Days",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q2-R2-O4",
+                          "name": "Weeks",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q2-R2-O5",
+                          "name": "Months",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S1-G2-Q2-R2-O6",
+                          "name": "Unknown",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S1-G2-Q3",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S1-G2-Q3-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S1-G2-Q3-R1-O1",
+                          "name": "Others",
+                          "type": "tf-text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "P2-S2",
+          "name": "Appearance",
+          "type": "form",
+          "data": [
+            {
+              "id": "P2-S2-G1",
+              "name": "",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P2-S2-G1-Q1",
+                  "name": "General",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S2-G1-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S2-G1-Q1-R1-O1",
+                          "name": "Well Kept",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q1-R1-O2",
+                          "name": "Unkept",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q1-R1-O3",
+                          "name": "Poorly Cared For",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S2-G1-Q2",
+                  "name": "Appearance",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S2-G1-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S2-G1-Q2-R1-O1",
+                          "name": "No Distress",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q2-R1-O2",
+                          "name": "Mild Distress",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q2-R1-O3",
+                          "name": "Moderate Distress",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q2-R1-O4",
+                          "name": "Severe Distress",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S2-G1-Q3",
+                  "name": "Position",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S2-G1-Q3-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S2-G1-Q3-R1-O1",
+                          "name": "Ambulating",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q3-R1-O2",
+                          "name": "Left Lateral",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q3-R1-O3",
+                          "name": "Prone",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q3-R1-O4",
+                          "name": "Standing",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q3-R1-O5",
+                          "name": "Sitting",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q3-R1-O6",
+                          "name": "Supine",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q3-R1-O7",
+                          "name": "Rt Lateral",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q3-R1-O8",
+                          "name": "Fowlers",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q3-R1-O9",
+                          "name": "Semi Fowlers",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S2-G1-Q4",
+                  "name": "Transported To Medical",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S2-G1-Q4-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S2-G1-Q4-R1-O1",
+                          "name": "Walked",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q4-R1-O2",
+                          "name": "Carried",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q4-R1-O3",
+                          "name": "Stretcher",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q4-R1-O4",
+                          "name": "Spineboard",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q4-R1-O5",
+                          "name": "Wheelchair",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q4-R1-O6",
+                          "name": "Carry Sheet",
+                          "type": "s-select"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S2-G1-Q4-R2",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S2-G1-Q4-R2-O1",
+                          "name": "Security",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q4-R2-O2",
+                          "name": "Police",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S2-G1-Q4-R2-O3",
+                          "name": "Friends",
+                          "type": "s-select"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S2-G1-Q4-R3",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S2-G1-Q4-R3-O1",
+                          "name": "Others",
+                          "type": "tf-text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "P2-S3",
+          "name": "GCS",
+          "type": "form",
+          "data": [
+            {
+              "id": "P2-S3-G1",
+              "name": "",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P2-S3-G1-Q1",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S3-G1-Q1-R1",
+                      "name": "Best eye response",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S3-G1-Q1-R1-O1",
+                          "name": "Spontaneously (+4)",
+                          "value": 4,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R1-O2",
+                          "name": "To verbal command (+3)",
+                          "value": 3,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R1-O3",
+                          "name": "To pain (+2)",
+                          "value": 2,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R1-O4",
+                          "name": "No eye opening (+1)",
+                          "value": 1,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R1-O5",
+                          "name": "Not testable (NT +0)",
+                          "value": 0,
+                          "type": "s-select"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S3-G1-Q1-R2",
+                      "name": "Best verbal response",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S3-G1-Q1-R2-O1",
+                          "name": "Oriented (+5)",
+                          "value": 5,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R2-O2",
+                          "name": "Confused (+4)",
+                          "value": 4,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R2-O3",
+                          "name": "Inappropriate words (+3)",
+                          "value": 3,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R2-O4",
+                          "name": "Incomprehensible sounds (+2)",
+                          "value": 2,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R2-O5",
+                          "name": "No verbal response (+1)",
+                          "value": 1,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R2-O6",
+                          "name": "Not testable / intubated (NT +0)",
+                          "value": 0,
+                          "type": "s-select"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S3-G1-Q1-R3",
+                      "name": "Best motor response",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S3-G1-Q1-R3-O1",
+                          "name": "Obeys commands (+6)",
+                          "value": 6,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R3-O2",
+                          "name": "Localizes pain (+5)",
+                          "value": 5,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R3-O3",
+                          "name": "Withdrawal from pain (+4)",
+                          "value": 4,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R3-O4",
+                          "name": "Flexian to pain (+3)",
+                          "value": 3,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R3-O5",
+                          "name": "Extension to pain (+2)",
+                          "value": 2,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R3-O6",
+                          "name": "No motor response (+1)",
+                          "value": 1,
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S3-G1-Q1-R3-O7",
+                          "name": "Not testable (NT +0)",
+                          "value": 0,
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S3-G1-Q2",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S3-G1-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S3-G1-Q2-R1-O1",
+                          "name": "Total GCS",
+                          "type": "tf-text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "P2-S4",
+          "name": "Neuro",
+          "type": "form",
+          "data": [
+            {
+              "id": "P2-S4-G1",
+              "name": "",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P2-S4-G1-Q1",
+                  "name": "General Neuro",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G1-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G1-Q1-R1-O1",
+                          "name": "Double Vision",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G1-Q1-R1-O2",
+                          "name": "Decorticate",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G1-Q1-R1-O3",
+                          "name": "Decerabrate",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G1-Q1-R1-O4",
+                          "name": "Blurred Vision",
+                          "type": "m-select"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P2-S4-G2",
+              "name": "Stroke Assessment",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P2-S4-G2-Q1",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G2-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G2-Q1-R1-O1",
+                          "name": "Unremarkable",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G2-Q2",
+                  "name": "Facial Droop",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G2-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G2-Q2-R1-O1",
+                          "name": "Absent",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G2-Q2-R1-O2",
+                          "name": "Present",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G2-Q3",
+                  "name": "Arm Drift",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G2-Q3-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G2-Q3-R1-O1",
+                          "name": "Absent",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G2-Q3-R1-O2",
+                          "name": "Drifts Down",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G2-Q3-R1-O3",
+                          "name": "Falls Rapidly",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G2-Q4",
+                  "name": "Speech Deficit",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G2-Q4-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G2-Q4-R1-O1",
+                          "name": "Absent",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G2-Q4-R1-O2",
+                          "name": "Present",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G2-Q5",
+                  "name": "Grip Strength",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G2-Q5-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G2-Q5-R1-O1",
+                          "name": "Normal",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G2-Q5-R1-O2",
+                          "name": "Weak Grip",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G2-Q5-R1-O3",
+                          "name": "No Grip",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G2-Q6",
+                  "name": "Time Of Onset",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G2-Q6-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G2-Q6-R1-O1",
+                          "name": "Unknown",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S4-G2-Q6-R2"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S4-G2-Q6-R2",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G2-Q6-R2-O1",
+                          "name": "Time",
+                          "type": "time-picker"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P2-S4-G3",
+              "name": "Extremities",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P2-S4-G3-Q1",
+                  "name": "Tingling Sensation",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G3-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G3-Q1-R1-O1",
+                          "name": "Left Arm",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G3-Q1-R1-O2",
+                          "name": "Right Arm",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G3-Q1-R1-O3",
+                          "name": "Left Leg",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G3-Q1-R1-O4",
+                          "name": "Right Leg",
+                          "type": "m-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G3-Q2",
+                  "name": "Weakness",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G3-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G3-Q2-R1-O1",
+                          "name": "Left Arm",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G3-Q2-R1-O2",
+                          "name": "Right Arm",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G3-Q2-R1-O3",
+                          "name": "Left Leg",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G3-Q2-R1-O4",
+                          "name": "Right Leg",
+                          "type": "m-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G3-Q3",
+                  "name": "Paralysis",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G3-Q3-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G3-Q3-R1-O1",
+                          "name": "Left Arm",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G3-Q3-R1-O2",
+                          "name": "Right Arm",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G3-Q3-R1-O3",
+                          "name": "Left Leg",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G3-Q3-R1-O4",
+                          "name": "Right Leg",
+                          "type": "m-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G3-Q4",
+                  "name": "Contractures",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G3-Q4-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G3-Q4-R1-O1",
+                          "name": "Left Arm",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G3-Q4-R1-O2",
+                          "name": "Right Arm",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G3-Q4-R1-O3",
+                          "name": "Left Leg",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S4-G3-Q4-R1-O4",
+                          "name": "Right Leg",
+                          "type": "m-select"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P2-S4-G4",
+              "name": "Pulse Motor Sensory",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P2-S4-G4-Q1",
+                  "name": "Left Hand Pulse",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G4-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G4-Q1-R1-O1",
+                          "name": "+",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G4-Q1-R1-O2",
+                          "name": "-",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G4-Q2",
+                  "name": "Left Hand Motor",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G4-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G4-Q2-R1-O1",
+                          "name": "+",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G4-Q2-R1-O2",
+                          "name": "-",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G4-Q3",
+                  "name": "Left Hand Sensory",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G4-Q3-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G4-Q3-R1-O1",
+                          "name": "+",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G4-Q3-R1-O2",
+                          "name": "-",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G4-Q4",
+                  "name": "Right Hand Pulse",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G4-Q4-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G4-Q4-R1-O1",
+                          "name": "+",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G4-Q4-R1-O2",
+                          "name": "-",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G4-Q5",
+                  "name": "Right Hand Motor",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G4-Q5-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G4-Q5-R1-O1",
+                          "name": "+",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G4-Q5-R1-O2",
+                          "name": "-",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G4-Q6",
+                  "name": "Right Hand Sensory",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G4-Q6-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G4-Q6-R1-O1",
+                          "name": "+",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G4-Q6-R1-O2",
+                          "name": "-",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G4-Q7",
+                  "name": "Left Leg Pulse",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G4-Q7-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G4-Q7-R1-O1",
+                          "name": "+",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G4-Q7-R1-O2",
+                          "name": "-",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G4-Q8",
+                  "name": "Left Leg Motor",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G4-Q8-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G4-Q8-R1-O1",
+                          "name": "+",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G4-Q8-R1-O2",
+                          "name": "-",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G4-Q9",
+                  "name": "Left Leg Sensory",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G4-Q9-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G4-Q9-R1-O1",
+                          "name": "+",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G4-Q9-R1-O2",
+                          "name": "-",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G4-Q10",
+                  "name": "Right Leg Pulse",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G4-Q10-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G4-Q10-R1-O1",
+                          "name": "+",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G4-Q10-R1-O2",
+                          "name": "-",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G4-Q11",
+                  "name": "Right Leg Motor",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G4-Q11-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G4-Q11-R1-O1",
+                          "name": "+",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G4-Q11-R1-O2",
+                          "name": "-",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S4-G4-Q12",
+                  "name": "Right Leg Sensory",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G4-Q12-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G4-Q12-R1-O1",
+                          "name": "+",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G4-Q12-R1-O2",
+                          "name": "-",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P2-S4-G5",
+              "name": "Seizure",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P2-S4-G5-Q1",
+                  "name": "Seizure Type",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S4-G5-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G5-Q1-R1-O1",
+                          "name": "Tonic / Clonic",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G5-Q1-R1-O2",
+                          "name": "Focal",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S4-G5-Q1-R1-O3",
+                          "name": "Absent",
+                          "type": "s-select"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S4-G5-Q1-R2",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G5-Q1-R2-O1",
+                          "name": "Number of Seizures (Amount)",
+                          "type": "tf-number"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S4-G5-Q1-R3",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G5-Q1-R3-O1",
+                          "name": "Number of Seizures (Daration)(min)",
+                          "type": "tf-number"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S4-G5-Q1-R4",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S4-G5-Q1-R4-O1",
+                          "name": "Other",
+                          "type": "tf-text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "P2-S5",
+          "name": "PMHx",
+          "type": "form",
+          "data": [
+            {
+              "id": "P2-S5-G1",
+              "name": "",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P2-S5-G1-Q1",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S5-G1-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S5-G1-Q1-R1-O1",
+                          "name": "Denies",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S5-G1-Q2"
+                          ]
+                        },
+                        {
+                          "id": "P2-S5-G1-Q1-R1-O2",
+                          "name": "UTO",
+                          "type": "s-select",
+                          "sections_to_hide": [
+                            "P2-S5-G1-Q2"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S5-G1-Q2",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S5-G1-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O1",
+                          "name": "Alzheimer's / Dementia",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O2",
+                          "name": "Atrial Fib",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O3",
+                          "name": "Asthma",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O4",
+                          "name": "Benzo Abuse",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O5",
+                          "name": "CHF",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O6",
+                          "name": "COPD",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O7",
+                          "name": "CRF / ESRD",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O8",
+                          "name": "CVA / TIA",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O9",
+                          "name": "Cartiac-CABG",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O10",
+                          "name": "Cardiac-MI",
+                          "type": "m-select"
+                          
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O11",
+                          "name": "Cardiac-STENT/S",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O12",
+                          "name": "Diabetes",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O13",
+                          "name": "Dialysis",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O14",
+                          "name": "DVT",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O15",
+                          "name": "ETOH Abuse",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O16",
+                          "name": "GERD",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O17",
+                          "name": "Hepatitis-B",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O18",
+                          "name": "Hepatitis-C",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O19",
+                          "name": "HIV / AIDS",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O20",
+                          "name": "Hyper-Cholesterol",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O21",
+                          "name": "Hypertension",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O22",
+                          "name": "Hype-Thyroid",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O23",
+                          "name": "Internal Defibrilator",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O24",
+                          "name": "Internal Pacemaker",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O25",
+                          "name": "Intubation",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O26",
+                          "name": "IVDA",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O27",
+                          "name": "Opiate Abuse",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O28",
+                          "name": "Psychiatric",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O29",
+                          "name": "Seizures",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O30",
+                          "name": "Spinal Injury",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O31",
+                          "name": "Substance Abuse",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O32",
+                          "name": "SVT",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O33",
+                          "name": "Syncope",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O34",
+                          "name": "TBI",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O35",
+                          "name": "Tracheostomy",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R1-O36",
+                          "name": "Tuberculosis",
+                          "type": "m-select"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S5-G1-Q2-R2",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S5-G1-Q2-R2-O1",
+                          "name": "Cancer of",
+                          "type": "tf-text"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S5-G1-Q2-R3",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S5-G1-Q2-R3-O1",
+                          "name": "Amputation of",
+                          "type": "tf-text"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S5-G1-Q2-R4",
+                      "name": "Previous admission for ARTUS",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S5-G1-Q2-R4-O1",
+                          "name": "Yes",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R4-O2",
+                          "name": "No",
+                          "type": "s-select"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S5-G1-Q2-R5",
+                      "name": "Previous admission for ETOH",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S5-G1-Q2-R5-O1",
+                          "name": "Yes",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S5-G1-Q2-R5-O2",
+                          "name": "No",
+                          "type": "s-select"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S5-G1-Q2-R6",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S5-G1-Q2-R6-O1",
+                          "name": "Other",
+                          "type": "tf-text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "P2-S6",
+          "name": "Allergies",
+          "type": "form",
+          "data": [
+            {
+              "id": "P2-S6-G1",
+              "name": "",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P2-S6-G1-Q1",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S6-G1-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S6-G1-Q1-R1-O1",
+                          "name": "Denies",
+                          "type": "s-select",
+                          "sections_to_hide": ["P2-S6-G1-Q2", "P2-S6-G1-Q3"]
+                        },
+                        {
+                          "id": "P2-S6-G1-Q1-R1-O2",
+                          "name": "No Known Allergies",
+                          "type": "s-select",
+                          "sections_to_hide": ["P2-S6-G1-Q2", "P2-S6-G1-Q3"]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S6-G1-Q2",
+                  "name": "Allergic To",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S6-G1-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S6-G1-Q2-R1-O1",
+                          "name": "Dairy",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q2-R1-O2",
+                          "name": "Latex",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q2-R1-O3",
+                          "name": "Nuts",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q2-R1-O4",
+                          "name": "Sting Bites",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q2-R1-O5",
+                          "name": "Soy",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q2-R1-O6",
+                          "name": "Shellfish",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q2-R1-O7",
+                          "name": "Strawberries",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q2-R1-O8",
+                          "name": "Kiwi Fruit",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q2-R1-O9",
+                          "name": "Grass",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q2-R1-O10",
+                          "name": "Dust",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q2-R1-O11",
+                          "name": "Bananas",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q2-R1-O12",
+                          "name": "Pollen",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q2-R1-O13",
+                          "name": "Animals",
+                          "type": "m-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S6-G1-Q3",
+                  "name": "Reaction",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S6-G1-Q3-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S6-G1-Q3-R1-O1",
+                          "name": "Anaphylaxis",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q3-R1-O2",
+                          "name": "Dyspnea",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q3-R1-O3",
+                          "name": "Oedema",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q3-R1-O4",
+                          "name": "Itching",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q3-R1-O5",
+                          "name": "Rash",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q3-R1-O6",
+                          "name": "Hives",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q3-R1-O7",
+                          "name": "Fever",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q3-R1-O8",
+                          "name": "Cough",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q3-R1-O9",
+                          "name": "Nausea",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q3-R1-O10",
+                          "name": "Vomiting",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q3-R1-O11",
+                          "name": "Diarrhea",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P2-S6-G1-Q3-R1-O12",
+                          "name": "Headache",
+                          "type": "m-select"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P2-S6-G1-Q3-R2",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S6-G1-Q3-R2-O1",
+                          "name": "other",
+                          "type": "tf-text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "P2-S7",
+          "name": "Current Medications",
+          "type": "form",
+          "data": [
+            {
+              "id": "P2-S7-G1",
+              "name": "",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P2-S7-G1-Q1",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S7-G1-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S7-G1-Q1-R1-O1",
+                          "name": "Unable to Obtain (UTO)",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P2-S7-G1-Q1-R1-O2",
+                          "name": "Denies taking any current medications",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S7-G1-Q2",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S7-G1-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S7-G1-Q2-R1-O1",
+                          "name": "Name",
+                          "type": "tf-text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P2-S7-G1-Q3",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P2-S7-G1-Q3-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P2-S7-G1-Q3-R1-O1",
+                          "name": "Dose",
+                          "type": "tf-text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Airway",
+      "type": "form",
+      "data": [
+        {
+          "id": "P3-G1",
+          "name": "",
+          "type": "group",
+          "data": [
+            {
+              "id": "P3-G1-Q1",
+              "name": "",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P3-G1-Q1-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P3-G1-Q1-R1-O1",
+                      "name": "Patent",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P3-G1-Q1-R1-O2",
+                      "name": "Not Patent",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P3-G1-Q1-R1-O3",
+                      "name": "Obstructed",
+                      "type": "s-select"
+                    }
+                  ]
+                },
+                {
+                  "id": "P3-G1-Q1-R2",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P3-G1-Q2-R2-O1",
+                      "name": "Others",
+                      "type": "tf-text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Breathing",
+      "type": "form",
+      "sections_to_hide": ["P4-G1-Q1-R2"],
+      "data": [
+        {
+          "id": "P4-G1",
+          "name": "",
+          "type": "group",
+          "data": [
+            {
+              "id": "P4-G1-Q1",
+              "name": "Breathing Quality",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P4-G1-Q1-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P4-G1-Q1-R1-O1",
+                      "name": "Regular",
+                      "type": "s-select",
+                      "sections_to_hide": [
+                        "P4-G1-Q1-R2"
+                      ]
+                    },
+                    {
+                      "id": "P4-G1-Q1-R1-O2",
+                      "name": "Ir-regular",
+                      "type": "s-select",
+                      "sections_to_show": [
+                        "P4-G1-Q1-R2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P4-G1-Q1-R2",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P4-G1-Q1-R2-O1",
+                      "name": "Shallow",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P4-G1-Q1-R2-O2",
+                      "name": "Labored",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P4-G1-Q1-R2-O3",
+                      "name": "Access Muscle Use",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P4-G1-Q1-R2-O4",
+                      "name": "Decreased Breath Sound",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P4-G1-Q1-R2-O5",
+                      "name": "Apneice",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P4-G1-Q1-R2-O6",
+                      "name": "Rapid",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P4-G1-Q1-R2-O7",
+                      "name": "Weak/Agonal",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P4-G1-Q1-R2-O8",
+                      "name": "Mechanically Assisted",
+                      "type": "m-select"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P4-G1-Q2",
+              "name": "Cough",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P4-G1-Q2-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P4-G1-Q2-R1-O1",
+                      "name": "Cough (None)",
+                      "type": "s-select",
+                      "sections_to_hide": [
+                        "P4-G1-Q3",
+                        "P4-G1-Q4"
+                      ]
+                    },
+                    {
+                      "id": "P4-G1-Q2-R1-O2",
+                      "name": "Cough (Productive)",
+                      "type": "s-select",
+                      "sections_to_show": [
+                        "P4-G1-Q3",
+                        "P4-G1-Q4"
+                      ]
+                    },
+                    {
+                      "id": "P4-G1-Q2-R1-O3",
+                      "name": "Cough (Dry)",
+                      "type": "s-select",
+                      "sections_to_show": [
+                        "P4-G1-Q3"
+                      ],
+                      "sections_to_hide": [
+                        "P4-G1-Q4"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P4-G1-Q3",
+              "name": "",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P4-G1-Q3-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P4-G1-Q3-R1-O1",
+                      "name": "Cough (days)",
+                      "type": "tf-number"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P4-G1-Q4",
+              "name": "Sputum Color",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P4-G1-Q4-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P4-G1-Q4-R1-O1",
+                      "name": "Clear",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P4-G1-Q4-R1-O2",
+                      "name": "Yellow",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P4-G1-Q4-R1-O3",
+                      "name": "Green",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P4-G1-Q4-R1-O4",
+                      "name": "Brown",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P4-G1-Q4-R1-O5",
+                      "name": "Pink",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P4-G1-Q4-R1-O6",
+                      "name": "Bloody",
+                      "type": "s-select"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P4-G1-Q5",
+              "name": "",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P4-G1-Q5-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P4-G1-Q5-R1-O1",
+                      "name": "Other",
+                      "type": "tf-text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Skin",
+      "type": "form",
+      "data": [
+        {
+          "id": "P5-G1",
+          "name": "",
+          "type": "group",
+          "data": [
+            {
+              "id": "P5-G1-Q1",
+              "name": "Cap Refill",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P5-G1-Q1-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P5-G1-Q1-R1-O1",
+                      "name": "(-) 2sec",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P5-G1-Q1-R1-O2",
+                      "name": "(+) 2sec",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P5-G1-Q1-R1-O3",
+                      "name": "(=) 2sec",
+                      "type": "s-select"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P5-G1-Q2",
+              "name": "Skin Assessment",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P5-G1-Q2-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P5-G1-Q2-R1-O1",
+                      "name": "Rash (Yes)",
+                      "type": "s-select",
+                      "sections_to_show": [
+                        "P5-G1-Q2-R2"
+                      ]
+                    },
+                    {
+                      "id": "P5-G1-Q2-R1-O2",
+                      "name": "Rash (No)",
+                      "type": "s-select",
+                      "sections_to_hide": [
+                        "P5-G1-Q2-R2"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P5-G1-Q2-R2",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P5-G1-Q2-R1-O1",
+                      "name": "Rash Location",
+                      "type": "tf-text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P5-G1-Q3",
+              "name": "",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P5-G1-Q3-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P5-G1-Q3-R1-O1",
+                      "name": "Other",
+                      "type": "tf-text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P6",
+      "name": "Presenting Problem",
+      "type": "menu_level_2",
+      "data": [
+        {
+          "id": "P6-S1",
+          "name": "Medical",
+          "type": "form",
+          "data": [
+            {
+              "id": "P6-S1-G1",
+              "name": "",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P6-S1-G1-Q1",
+                  "name": "Medical",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S1-G1-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O1",
+                          "name": "Abdominal Pain",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O2",
+                          "name": "Acidosis",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O3",
+                          "name": "Activie Labor",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O4",
+                          "name": "Airway Obstruction",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O5",
+                          "name": "Allergy",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O6",
+                          "name": "Altered Mental Status",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O7",
+                          "name": "Amniotic Sac Not Ruptured",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O8",
+                          "name": "Anaphylaxis",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O9",
+                          "name": "Arrest Cardiac",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O10",
+                          "name": "Asthma",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O11",
+                          "name": "Back Pain",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O12",
+                          "name": "Behavioral",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O13",
+                          "name": "Breech Presentation",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O14",
+                          "name": "Bronchospasm",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O15",
+                          "name": "Cardiac Related",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O16",
+                          "name": "Cardiogenic Shock",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O17",
+                          "name": "Chest Pain",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O18",
+                          "name": "Childbirth",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O19",
+                          "name": "Choking",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O20",
+                          "name": "COPD",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O21",
+                          "name": "Covid-19",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O22",
+                          "name": "Croup",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O23",
+                          "name": "CVA/ITA",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O24",
+                          "name": "Cyanide Poisoning",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O25",
+                          "name": "Decompression Sickness",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O26",
+                          "name": "Dehydration",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O27",
+                          "name": "Dental Problem",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O28",
+                          "name": "Device Malfunction",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O29",
+                          "name": "Diabetic Problem",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O30",
+                          "name": "Diarrhea",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O31",
+                          "name": "Dizziness",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O32",
+                          "name": "DNR",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O33",
+                          "name": "DOA",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O34",
+                          "name": "Drowning",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O35",
+                          "name": "Near Drowning",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O36",
+                          "name": "EDP",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O37",
+                          "name": "Environ-Cold",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O38",
+                          "name": "Near Syncope",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O39",
+                          "name": "Environ-Heat",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O40",
+                          "name": "Urological",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O41",
+                          "name": "Epiglottitis",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O42",
+                          "name": "Exposure / Nerve Agent",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O43",
+                          "name": "Ext Dep. Lividity",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O44",
+                          "name": "Fever",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O45",
+                          "name": "Gen Malaise",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O46",
+                          "name": "GI Bleed",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O47",
+                          "name": "GI Distress",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O48",
+                          "name": "G-tube complication",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O49",
+                          "name": "HazMat",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O50",
+                          "name": "Headache",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O51",
+                          "name": "Heat Related / Cramps",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O52",
+                          "name": "Heat Related / Exhaustion",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O53",
+                          "name": "Heat Related / Stroke",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O54",
+                          "name": "Hemorrhage",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O55",
+                          "name": "Hyperglycemia",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O56",
+                          "name": "Hypoglycemia",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O57",
+                          "name": "Hypokalemia",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O58",
+                          "name": "Hyperkalemia",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O59",
+                          "name": "Hypertension",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O60",
+                          "name": "Hypotension",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O61",
+                          "name": "Hypothermia",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O62",
+                          "name": "Hypoxia",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O63",
+                          "name": "JVD",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O64",
+                          "name": "MI / Hear Attack",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O65",
+                          "name": "Nausea",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O66",
+                          "name": "Neonate Care",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O67",
+                          "name": "Neonate Resuscitation",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O68",
+                          "name": "OB/GYN",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O69",
+                          "name": "OB/Labor",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O70",
+                          "name": "Obvious Death",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O71",
+                          "name": "Pacemaker complications",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O72",
+                          "name": "Pain",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O73",
+                          "name": "Palpitations",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O74",
+                          "name": "Peg tube complication",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O75",
+                          "name": "Pneumothorax",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O76",
+                          "name": "Pulmonary Edema/APE",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O77",
+                          "name": "Pulmonary Embolism",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O78",
+                          "name": "Rash",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O79",
+                          "name": "Resp Distress",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O80",
+                          "name": "Resp Failure",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O81",
+                          "name": "Respiratory Arrest",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O82",
+                          "name": "Seizure",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O83",
+                          "name": "Sepsis",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O84",
+                          "name": "Shivering",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O85",
+                          "name": "Shock",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O86",
+                          "name": "Sludgem",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O87",
+                          "name": "Stab Wound",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O88",
+                          "name": "Gunshot Wound",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O89",
+                          "name": "Stroke",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O90",
+                          "name": "Suicidal",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O91",
+                          "name": "Syncope",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O92",
+                          "name": "Trach Complications",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O93",
+                          "name": "Trachial Deviation",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O94",
+                          "name": "Transfer ",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O95",
+                          "name": "Unconscious/Unresponsive",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O96",
+                          "name": "Urinary tube complication",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O97",
+                          "name": " Vomiting",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O98",
+                          "name": "Weakness",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O99",
+                          "name": "Wheezing",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O100",
+                          "name": "ETOH",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q1-R1-O101",
+                          "name": "ARTUS",
+                          "type": "m-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P6-S1-G1-Q2",
+                  "name": "Suspected Overdose",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S1-G1-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S1-G1-Q2-R1-O1",
+                          "name": "Suspected Overdose (Substance)",
+                          "type": "tf-text"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S1-G1-Q2-R2",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S1-G1-Q2-R2-O1",
+                          "name": "Suspected Overdose (Amount)",
+                          "type": "tf-number"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S1-G1-Q2-R3",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S1-G1-Q2-R3-O1",
+                          "name": "Suspected Overdose (Ingestion)",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q2-R3-O2",
+                          "name": "Suspected Overdose(Inhalation)",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q2-R3-O3",
+                          "name": "Suspected Overdose (Injection)",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P6-S1-G1-Q3",
+                  "name": "Suspected Poisoning",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S1-G1-Q3-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S1-G1-Q3-R1-O1",
+                          "name": "Suspected Poisoning (Substance)",
+                          "type": "tf-text"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S1-G1-Q3-R2",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S1-G1-Q3-R2-O1",
+                          "name": "Suspected Poisoning (Amount)",
+                          "type": "tf-number"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S1-G1-Q3-R3",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S1-G1-Q3-R3-O1",
+                          "name": "Suspected Overdose (Ingestion)",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q3-R3-O2",
+                          "name": "Suspected Overdose (Inhalation)",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S1-G1-Q3-R3-O3",
+                          "name": "Suspected Overdose (Injection)",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "P6-S2",
+          "name": "Trauma",
+          "type": "form",
+          "data": [
+            {
+              "id": "P6-S2-G1",
+              "name": "",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P6-S2-G1-Q1",
+                  "name": "Trauma",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S2-G1-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O1",
+                          "name": "Avulsion",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O2",
+                          "name": "Abrasion",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O3",
+                          "name": "Amputation",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O4",
+                          "name": "Animal Bite",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O5",
+                          "name": "Burn-Chemical",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O6",
+                          "name": "Burn-Electrical",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O7",
+                          "name": "Burn-Thermal",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O8",
+                          "name": "Contusion",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O9",
+                          "name": "CNS Injury",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O10",
+                          "name": "Crush Injury",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O11",
+                          "name": "Dislocation / Fx",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O12",
+                          "name": "Eye Irritant",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O13",
+                          "name": "Head Trauma",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O14",
+                          "name": "Hemorrhage",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O15",
+                          "name": "Impaled Object",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O16",
+                          "name": "Laceration",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O17",
+                          "name": "Major Trauma",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O18",
+                          "name": "Minor Trauma",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O19",
+                          "name": "Multi Trauma",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O20",
+                          "name": "Open Fx",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O21",
+                          "name": "Pain",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O22",
+                          "name": "Paralysis",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O23",
+                          "name": "Penetrating",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O24",
+                          "name": "Sexual Assault",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O25",
+                          "name": "Shock",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O26",
+                          "name": "Smoke Inhalation",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O27",
+                          "name": "Soft Tissue Injury",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O28",
+                          "name": "Traffic Accident",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O29",
+                          "name": "Traumatic Arrest",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O30",
+                          "name": "Traumatic Injury",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O31",
+                          "name": "Obvious Death",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O32",
+                          "name": "DOA",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S2-G1-Q1-R1-O33",
+                          "name": "DNR",
+                          "type": "m-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P6-S2-G1-Q2",
+                  "name": "other",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S2-G1-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S2-G1-Q2-R1-O1",
+                          "name": "other",
+                          "type": "tf-text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "P6-S3",
+          "name": "MOI",
+          "type": "form",
+          "data": [
+            {
+              "id": "P6-S3-G1",
+              "name": "",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P6-S3-G1-Q1",
+                  "name": "Mechanism of Injury",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S3-G1-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O1",
+                          "name": "Animal Bite",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O2",
+                          "name": "Assault",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O3",
+                          "name": "Blunt Force Trauma",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O4",
+                          "name": "Blunt Trauma",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O5",
+                          "name": "Burn",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O6",
+                          "name": "Burn-Chemical",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O7",
+                          "name": "Burn-Electrical",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O8",
+                          "name": "Burn-Thermal",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O9",
+                          "name": "Cold Related",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O10",
+                          "name": "Electrical Shock",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O11",
+                          "name": "Fall",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O12",
+                          "name": "GSW",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O13",
+                          "name": "Heat Related",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O14",
+                          "name": "LOC",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O15",
+                          "name": "Machinery",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O16",
+                          "name": "Near Drowning",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O17",
+                          "name": "Smoke Inhalation",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O18",
+                          "name": "Stabbing",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O19",
+                          "name": "Suspected Child Abuse / Neglect",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O20",
+                          "name": "Suspected Elder Abuse / Neglect",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O21",
+                          "name": "Suspected Sexual Assault",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O22",
+                          "name": "MVA",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O23",
+                          "name": "Person Struck",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q1-R1-O24",
+                          "name": "Penetrating Trauma",
+                          "type": "m-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P6-S3-G1-Q2",
+                  "name": "Person Struck By",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S3-G1-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S3-G1-Q2-R1-O1",
+                          "name": "Auto",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q2-R1-O2",
+                          "name": "Bicycle",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q2-R1-O3",
+                          "name": "Object",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P6-S3-G1-Q3",
+                  "name": "Fall Height (metres)",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S3-G1-Q3-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S3-G1-Q3-R1-O1",
+                          "name": "Fall Height (metres)",
+                          "type": "tf-number"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P6-S3-G1-Q4",
+                  "name": "On To",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S3-G1-Q4-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S3-G1-Q4-R1-O1",
+                          "name": "Grass",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q4-R1-O2",
+                          "name": "Stage",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q4-R1-O3",
+                          "name": "Structure",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q4-R1-O4",
+                          "name": "Scaffold",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q4-R1-O5",
+                          "name": "Water",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S3-G1-Q4-R1-O6",
+                          "name": "Rock",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P6-S3-G1-Q5",
+                  "name": "other",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S3-G1-Q5-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S3-G1-Q5-R1-O1",
+                          "name": "other",
+                          "type": "tf-text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "P6-S4",
+          "name": "MVA-Event",
+          "type": "form",
+          "data": [
+            {
+              "id": "P6-S4-G1",
+              "name": "",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P6-S4-G1-Q1",
+                  "name": "Motor vehicle accident",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S4-G1-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S4-G1-Q1-R1-O1",
+                          "name": "MVA / Forklift",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S4-G1-Q1-R1-O2",
+                          "name": "MVA / Buggy",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S4-G1-Q1-R1-O3",
+                          "name": "MVA / Emergency Vehicle",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S4-G1-Q1-R1-O4",
+                          "name": "MVA / Water Truck",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S4-G1-Q1-R1-O5",
+                          "name": "MVA / Sewer Truck",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S4-G1-Q1-R1-O6",
+                          "name": "MVA / Motorbike",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P6-S4-G1-Q2",
+                  "name": "Impact (KLM)",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S4-G1-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S4-G1-Q2-R1-O1",
+                          "name": "<5",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S4-G1-Q2-R1-O2",
+                          "name": ">5",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S4-G1-Q2-R1-O3",
+                          "name": "<10",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S4-G1-Q2-R1-O4",
+                          "name": ">20",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "P6-S5",
+          "name": "OB-GYN",
+          "type": "form",
+          "data": [
+            {
+              "id": "P6-S5-G1",
+              "name": "",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P6-S5-G1-Q1",
+                  "name": "OB-GYN",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S5-G1-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q1-R1-O1",
+                          "name": "OB/GYN (LMP)",
+                          "type": "time-picker"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S5-G1-Q1-R2",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q1-R2-O1",
+                          "name": "OB/GYN (Bleeding)",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S5-G1-Q1-R2-O2",
+                          "name": "OB/GYN (Cramping)",
+                          "type": "m-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P6-S5-G1-Q2",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S5-G1-Q2-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q2-R1-O1",
+                          "name": "Pregnancy (Due Date)",
+                          "type": "time-picker"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S5-G1-Q2-R2",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q2-R2-O1",
+                          "name": "Pregnancy (Gravida - Past Pregnancies)",
+                          "type": "tf-text"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S5-G1-Q2-R3",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q2-R3-O1",
+                          "name": "Pregnancy (Para - Live Births)",
+                          "type": "tf-text"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S5-G1-Q2-R4",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q2-R4-O1",
+                          "name": "Pregnancy (Pre Natal Care (Y/N))",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S5-G1-Q2-R4-O2",
+                          "name": "Labor (Water Broke)",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S5-G1-Q2-R4-O3",
+                          "name": "Labor (Crowning)",
+                          "type": "m-select"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S5-G1-Q2-R5",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q2-R5-O1",
+                          "name": "Labor (Contractions Minutes Apart)",
+                          "type": "tf-text"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S5-G1-Q2-R6",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q2-R6-O1",
+                          "name": "Labor (Duration - Add Time)",
+                          "type": "tf-text"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P6-S5-G1-Q3",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S5-G1-Q3-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q3-R1-O1",
+                          "name": " Delivery (Apgar Scale 1 Time) ",
+                          "type": "time-picker"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S5-G1-Q3-R2",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q3-R3-O1",
+                          "name": " Delivery (Apgar Scale 2 Time) ",
+                          "type": "time-picker"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S5-G1-Q3-R3",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q3-R3-O1",
+                          "name": "Apgar Score",
+                          "type": "s-select"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S5-G1-Q3-R4",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q3-R4-O1",
+                          "name": "Alive",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S5-G1-Q3-R4-O2",
+                          "name": "Stillbon",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P6-S5-G1-Q4",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S5-G1-Q4-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q4-R1-O1",
+                          "name": "Deliver Time",
+                          "type": "time-picker"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P6-S5-G1-Q5",
+                  "name": "Gender",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S5-G1-Q5-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q5-R1-O1",
+                          "name": "M",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S5-G1-Q5-R1-O2",
+                          "name": "F",
+                          "type": "s-select"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "P6-S5-G1-Q6",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S5-G1-Q6-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q6-R1-O1",
+                          "name": "Placenta Delivery time",
+                          "type": "time-picker"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S5-G1-Q6-R2",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q6-R2-O1",
+                          "name": "Meconium Stained? (Color)",
+                          "type": "tf-text"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S5-G1-Q6-R3",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q6-R3-O1",
+                          "name": "Meconium Stained? (Y)",
+                          "type": "s-select"
+                        },
+                        {
+                          "id": "P6-S5-G1-Q6-R3-O2",
+                          "name": "Meconium Stained? (N)",
+                          "type": "s-select"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "P6-S5-G1-Q6-R4",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S5-G1-Q6-R4-O1",
+                          "name": "Country Delivered",
+                          "type": "tf-text"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "P6-S6",
+          "name": "Non Clinical",
+          "type": "form",
+          "data": [
+            {
+              "id": "P6-S6-G1",
+              "name": "",
+              "type": "group",
+              "data": [
+                {
+                  "id": "P6-S6-G1-Q1",
+                  "name": "",
+                  "type": "question",
+                  "data": [
+                    {
+                      "id": "P6-S6-G1-Q1-R1",
+                      "name": "",
+                      "type": "query",
+                      "data": [
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O1",
+                          "name": "Adhesive Tap",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O2",
+                          "name": "Alcohol Wipes",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O3",
+                          "name": "Antibiotic Ointment",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O4",
+                          "name": "Antiseptic Solution",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O5",
+                          "name": "Antiseptic Wipes",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O6",
+                          "name": "Band-Aids In Several Sizes",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O7",
+                          "name": "Bandages In Various Sizes And Shapes",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O8",
+                          "name": "Calamine Lotion",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O9",
+                          "name": "Cold Pack (Instant) Or Ice Bag",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O10",
+                          "name": "Combine Dressing Pads (10Cm X 10Cm)",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O11",
+                          "name": "Compression (Elastic) Bandage",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O12",
+                          "name": "Cotton Balls And Cotton-Tipped Swabs",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O13",
+                          "name": "Crepe And Elasticised Bandages Of Varying Widths",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O14",
+                          "name": "Different Sized Sterile Gauze Pads",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O15",
+                          "name": "Elastic Bandage",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O16",
+                          "name": "Eyewash (Sterile)",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O17",
+                          "name": "Gauze Pads In Various Sizes",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O18",
+                          "name": "Gauze Swabs",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O19",
+                          "name": "Gloves",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O20",
+                          "name": "Hydrogen Peroxide",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O21",
+                          "name": "Hypoallergenic (Skin) Tape",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O22",
+                          "name": "Nail Clippers",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O23",
+                          "name": "Non-Stick Dressing Pads (7.5Cm X 10Cm)",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O24",
+                          "name": "Petroleum Jelly",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O25",
+                          "name": "Plastic Bags For The Disposal Of Potentially Contaminated Material",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O26",
+                          "name": "Rubbish Bags For Disposing Of Waste",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O27",
+                          "name": "Safety Pins In Different Sizes",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O28",
+                          "name": "Shock (Thermal) Blanket",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O29",
+                          "name": "Soap",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O30",
+                          "name": "Splint",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O31",
+                          "name": "Stainless Steel Pointed Splinter Forceps (Tweezers)",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O32",
+                          "name": "Stainless Steel Scissors (Sharp/Blunt) 12.5Cm",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O33",
+                          "name": "Sterile Eye Pad",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O34",
+                          "name": "Sterile Saline Tubes/Sachets",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O35",
+                          "name": "Stop Itch Cream",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O36",
+                          "name": "Thermometer",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O37",
+                          "name": "Triangular Bandages",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O38",
+                          "name": "Tweezers",
+                          "type": "m-select"
+                        },
+                        {
+                          "id": "P6-S6-G1-Q1-R1-O39",
+                          "name": "Warm Pack (Instant)",
+                          "type": "m-select"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P7",
+      "name": "Covid-19",
+      "type": "form",
+      "data": [
+        {
+          "id": "P7-G1",
+          "name": "",
+          "type": "group",
+          "data": [
+            {
+              "id": "P7-G1-Q1",
+              "name": "Covid-19",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P7-G1-Q1-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P7-G1-Q1-R1-O1",
+                      "name": "Suspected",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P7-G1-Q1-R1-O2",
+                      "name": "Confirmed",
+                      "type": "s-select"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P7-G1-Q2",
+              "name": "Signs Symptoms",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P7-G1-Q2-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P7-G1-Q2-R1-O1",
+                      "name": "Shortness of breath",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P7-G1-Q2-R1-O2",
+                      "name": "Cough",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P7-G1-Q2-R1-O3",
+                      "name": "Sore throat",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P7-G1-Q2-R1-O4",
+                      "name": "Fever",
+                      "type": "m-select"
+                    }
+                  ]
+                },
+                {
+                  "id": "P7-G1-Q2-R2",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P7-G1-Q2-R2-O1",
+                      "name": "Temperature",
+                      "type": "tf-number"
+                    }
+                  ]
+                },
+                {
+                  "id": "P7-G1-Q2-R3",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P7-G1-Q2-R3-O1",
+                      "name": "Other",
+                      "type": "tf-text"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P7-G1-Q3",
+              "name": "Surgical Mask",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P7-G1-Q3-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P7-G1-Q3-R1-O1",
+                      "name": "Surgical Mask Supplied",
+                      "type": "s-select"
+                    },
+                    {
+                      "id": "P7-G1-Q3-R1-O2",
+                      "name": "Surgical Mask Insitu",
+                      "type": "s-select"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "P7-G1-Q4",
+              "name": "PPE Crew",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P7-G1-Q4-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P7-G1-Q4-R1-O1",
+                      "name": "N95 Mask",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P7-G1-Q4-R1-O2",
+                      "name": "Surgical Mask",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P7-G1-Q4-R1-O3",
+                      "name": "Eye protection",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P7-G1-Q4-R1-O4",
+                      "name": "Gown",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P7-G1-Q4-R1-O5",
+                      "name": "Gloves",
+                      "type": "m-select"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P8",
+      "name": "Prior Tx At Scene",
+      "type": "form",
+      "data": [
+        {
+          "id": "P8-G1",
+          "name": "",
+          "type": "group",
+          "data": [
+            {
+              "id": "P8-G1-Q1",
+              "name": "",
+              "type": "question",
+              "data": [
+                {
+                  "id": "P8-G1-Q1-R1",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R1-O1",
+                      "name": "None",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P8-G1-Q1-R1-O2",
+                      "name": "By Patient",
+                      "type": "m-select"
+                    },
+                    {
+                      "id": "P8-G1-Q1-R1-O3",
+                      "name": "By Bystander",
+                      "type": "m-select"
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R2",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R2-O1",
+                      "name": "Tx",
+                      "type": "tf-text"
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R3",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R3-O1",
+                      "name": "by FDNY (Unit#)",
+                      "type": "tf-text"
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R4",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R4-O1",
+                      "name": "by FDNY (Tx)",
+                      "type": "tf-text"
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R5",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R5-O1",
+                      "name": "by EMS (Unit#)",
+                      "type": "tf-text"
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R6",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R6-O1",
+                      "name": "by EMS (Tx)",
+                      "type": "tf-text"
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R7",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R7-O1",
+                      "name": "by NYPD (Shield#)",
+                      "type": "tf-text"
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R8",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R8-O1",
+                      "name": "by NYPD (Tx)",
+                      "type": "tf-text"
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R9",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R9-O1",
+                      "name": "by Doctor (Name or #)",
+                      "type": "tf-text"
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R10",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R10-O1",
+                      "name": "by Doctor (Tx)",
+                      "type": "tf-text"
+                    }
+                  ]
+                },
+                {
+                  "id": "P8-G1-Q1-R11",
+                  "name": "",
+                  "type": "query",
+                  "data": [
+                    {
+                      "id": "P8-G1-Q1-R11-O1",
+                      "name": "Other",
+                      "type": "tf-text"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
